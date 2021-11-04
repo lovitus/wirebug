@@ -1,5 +1,7 @@
 Wirebug
 =======
+## backupNote
+***support run on startup (I guess) , find the apk on F-droid***
 
 Allows you to enable or disable debugging over Wi-Fi from within the device,
 without a USB cable. This can come in handy if your USB cable broke or you
@@ -10,7 +12,7 @@ lost/forgot it somewhere.
 ![Screenshot](screenshot.png)
 
 Why does it need root?
-----------------------
+----------------------Cancel changes
 
 Wirebug needs root permissions to write to the `system.adb.tcp.port`
 property and to restart the ADB daemon.
